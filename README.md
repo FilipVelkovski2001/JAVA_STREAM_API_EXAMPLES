@@ -1,4 +1,4 @@
-#Stream In Java
+<h>Stream In Java</h>
 
 Introduced in Java 8, the Stream API is used to process collections of objects. A stream is a sequence of objects that supports various methods which can be pipelined to produce the desired result.
 The features of Java stream are –
@@ -31,7 +31,7 @@ number.stream().map(x->x*x).forEach(y->System.out.println(y));
 reduce: The reduce method is used to reduce the elements of a stream to a single value.
 The reduce method takes a BinaryOperator as a parameter.
 
-## Important Points/Observations:
+## Important Points/Observations
 
 - A stream consists of source followed by zero or more intermediate methods combined together (pipelined) and a terminal method to process the objects obtained from the source as per the methods described.
 - Stream is used to compute elements as per the pipelined methods without altering the original value of the object.
